@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animal match game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <a href="index.html"><h1>animal match match game</h1></a>
+    <div class="menuWrap hidden">
+      <span id="stopWatch" class="stopWatch">00:00:00</span>
+      <a id="newGame" class="newGame">New game!</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <section id="rulesPage">
+      <h3>Rules of Play</h3>
+      <ol>
+        <li>Begin play by clicking on any of the blank squares on the Match Game Play Board to reveal a picture.</li>
+        <li>Click on a second blank square to reveal a second picture.</li>
+        <li>If the pictures match, they will disappear and you may continue per Step. 1 to find another matching pair.
+        </li>
+        <li>If the pictures do not match, they will return to their original state.</li>
+        <li>When you have matched all pairs of pictures, you win!</li>
+        <li>Enjoy the game!</li>
+      </ol>
+      <a id="rulesBtn" class="btn">i got it!</a>
+    </section>
+  </div>
+
+  <div class="container">
+    <div id="settingsWrapper" class="hidden">
+      <section class="typeOfCards">
+        <h3>Type of card back</h3>
+        <a href="#"><img id="cardBack1" src="images/cardBack/cardBack1.png" class="cardBack"></a>
+        <a href="#"><img id="cardBack2" src="images/cardBack/cardBack2.png" class="cardBack"></a>
+        <a href="#"><img id="cardBack3" src="images/cardBack/cardBack3.png" class="cardBack"></a>
+        <a href="#"><img id="cardBack4" src="images/cardBack/cardBack4.png" class="cardBack"></a>
+      </section>
+      <section class="gameLevel">
+        <h3>Game difficulty</h3>
+        <button id="24cards" class="btn">Easy</button>
+        <button id="30cards" class="btn">Normal</button>
+        <button id="36cards" class="btn">Hard</button>
+      </section>
+      <section class="typeOfBg">
+        <h3>Type of background</h3>
+        <a><img id="bg_1" src="images/boards/board_1.jpg" class="board"></a>
+        <a><img id="bg_2" src="images/boards/board_2.jpg" class="board"></a>
+      </section>
+      <a id="startBtn" class="btn">start</a>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <p>copyright animal match match game - designed by Karpovich Philip</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
